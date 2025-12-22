@@ -1,0 +1,72 @@
+:root
+{
+    --canvas-shadow:            0px 0px 4px black;
+    --space:                    10px;
+}
+
+body 
+{
+  font-family:    Helvetica, sans-serif;
+  margin:           0;
+  padding:          var(--space);
+  gap:              var(--space);
+  display :         flex;
+  width:            100vw;
+  height :          100dvh;
+  align-items:      flex-start;
+  box-sizing:       border-box;
+  background-color: #EEE;
+}
+
+
+canvas 
+{
+
+    display:  block;
+    box-shadow: var(--canvas-shadow);
+    border-radius: 4px;
+}
+
+button
+{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#container-canvas-menu
+{
+  display : flex;
+  flex-direction: column;
+  height:   90%;
+  gap : var(--space);
+}
+
+#container-canvas
+{
+  display:  flex;
+  height:   100%;
+}
+
+#container-menu #btn-draw
+{
+  display : none;
+} 
+
+
+
+#container-queue-infos
+{
+  flex: 2;
+}
+
+#container-queue-infos table
+{
+  border-collapse: collapse;
+  width:75%;
+}
+
+#container-queue-infos table th,td
+{
+  border: 1px solid #ddd;
+  padding: var(--space);
+}
