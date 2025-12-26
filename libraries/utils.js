@@ -141,7 +141,7 @@ function drawSquareGridCM(xCM,yCM,wCM,res,cbCell)
 
 // ----------------------------------------
 function //connect()
-{
+/*{
   bConnected = false;
   clientId = getClientId();
   SERVER_ADDRESS = `${SERVER_IP}:${SERVER_PORT}`
@@ -163,7 +163,7 @@ function //connect()
       updateLayoutInfos(data.queue);
       //console.log(data.queue)
     }
-  };
+  };*/
 
   /*
   Style
