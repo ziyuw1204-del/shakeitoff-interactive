@@ -140,7 +140,7 @@ function drawSquareGridCM(xCM,yCM,wCM,res,cbCell)
 }
 
 // ----------------------------------------
-function connect()
+/*function connect()
 {
   bConnected = false;
   clientId = getClientId();
