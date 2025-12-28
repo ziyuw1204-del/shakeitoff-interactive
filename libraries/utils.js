@@ -177,8 +177,7 @@ function drawSquareGridCM(xCM,yCM,wCM,res,cbCell)
       timestamp : Date.now()
     });
   updateLayoutInfos(queue);
-  */
-}
+}*/
 
 // ----------------------------------------
 function updateUI()
